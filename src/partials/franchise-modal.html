@@ -1,0 +1,34 @@
+<div class="franchise-backdrop is-hidden" franchise-modal>
+  <div class="franchise-modal">
+    <button franchise-modal-close class="modal__btn-close" type="button">
+      <span class="mobile-nav__close-icon"></span>
+    </button>
+    <b class="franchise-modal__title">Franchise Information</b>
+    <form class="franchise-modal-form" autocomplete="off">
+      <div class="franchise-modal__box">
+        <label class="franchise-modal-form__text" for="name">Name</label>
+        <input class="franchise-modal-form__item" type="text" name="name" id="name" />
+      </div>
+      <div class="franchise-modal__box">
+        <label class="franchise-modal-form__text" for="tel">Phone number</label>
+        <input class="franchise-modal-form__item" type="tel" name="tel" id="tel" />
+      </div>
+      <div class="franchise-modal__box">
+        <label class="franchise-modal-form__text" for="email">Mail</label>
+        <input class="franchise-modal-form__item" type="email" name="email" id="email" />
+      </div>
+
+      <label class="franchise-modal__checkbox">
+        <input type="checkbox" class="franchise-modal__checkbox--hidden is-hidden" name="agry">
+        <span class="franchise-modal__checkbox-icon"></span>
+        <span>Accepn the terms</span>
+    </label>
+      <button class="franchise-modal-form-btn" type="submit">
+        Send a request
+        <svg class="contacts__icon" width="6px" height="8px">
+          <use href="./images/sprite.svg#icon-vector-1arroov"></use>
+        </svg>
+      </button>
+    </form>
+  </div>
+</div>

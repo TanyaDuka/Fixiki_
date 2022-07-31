@@ -1,0 +1,17 @@
+.title {
+  @include font(34px, 400, 1.15);
+
+  font-family: var(--second-font);
+  text-transform: uppercase;
+
+  color: var(--accent-color);
+
+  @media screen and (min-width: 768px) {
+    @include font(48px, 400, 1.15);
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include font(58px, 400, 1.14);
+    letter-spacing: 0.06em;
+  }
+}
